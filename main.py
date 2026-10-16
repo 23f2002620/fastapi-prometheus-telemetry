@@ -53,7 +53,7 @@ async def middleware_instrumentation(request: Request, call_next):
 
 
 @app.get("/work")
-async def do_work(n: int = 1, email: str = "user@example.com"):
+async def do_work(n: int = 1, email: str = "23f2002620@ds.study.iitm.ac.in"):
     # Perform K units of computation
     accumulator = 0
     for i in range(n):
